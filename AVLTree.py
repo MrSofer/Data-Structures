@@ -1,9 +1,3 @@
-#username - talsofer1
-#id1      - 323869842
-#name1    - Tal Sofer
-#id2      - 323916395
-#name2    - Jonathan Klier
-
 """A class represnting a node in an AVL tree"""
 
 class AVLNode(object):
@@ -469,3 +463,4 @@ class AVLTree(object):
         if self.root != None: 
             return self.root
         return None
+
